@@ -1,0 +1,55 @@
+.navbar{
+    .navbar-styles{
+        max-height: 100% !important;
+        max-width: 100% !important;
+        height: 7rem;
+        width:100%;
+        background-color: #100f0f;
+        position:fixed;
+        top:0;
+        z-index:100;
+        box-shadow: -1px 2px 3px #ff0000;
+        .navbar-logo{
+            .navbar-logo-styles{
+                max-height: 100% !important;
+                max-width: 100% !important;
+                background-color: #ffffff8e;
+                height: 3rem;
+                width: 3rem;
+                margin: 2rem 1rem;
+                border: #ff1e00 2px solid;
+                border-radius: 50%;
+                
+                float:left; 
+            }
+        }
+
+        .navbar-searchbar{
+            .navbar-searchbar-styles{
+                max-height: 100% !important;
+                max-width: 100% !important; 
+                float:left; 
+                margin: 3rem 1rem;
+            }
+        }
+
+        .navbar-searchbtn{
+            .navbar-searchbtn-styles{
+                float:left; 
+                margin: 2.55rem 1rem;
+                height: 2rem;
+                width: 2rem;
+            }
+        }
+
+        .navbar-menu{
+            .navbar-menu-styles{
+                float:right; 
+                margin: 2.55rem 1rem;
+                height: 2rem;
+                width: 2rem;
+            }   
+        }
+
+    }
+}
